@@ -1,0 +1,11 @@
+{
+    "scripts": {
+      "test:chrome": "cypress run --config-file cypress-chrome.json",
+      "test:chrome:headed": "cypress run --config-file cypress-chrome.json --headed",
+      "test:chrome:headless": "cypress run --config-file cypress-chrome-headless.json --headless",
+      "test:firefox": "cypress run --config-file cypress-firefox.json",
+      "test:firefox:headed": "cypress run --config-file cypress-firefox.json --headed",
+      "test:firefox:headless": "cypress run --config-file cypress-firefox.json --headless"
+    }
+  }
+  
